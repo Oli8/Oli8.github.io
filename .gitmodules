@@ -1,6 +1,3 @@
 [submodule "HTML5_Gaming"]
 	path = HTML5_Gaming
 	url = https://github.com/Oli8/HTML5_Gaming.git
-[submodule "scoreKeeper"]
-	path = scoreKeeper
-	url = git@github.com:Oli8/scoreKeeper.git
