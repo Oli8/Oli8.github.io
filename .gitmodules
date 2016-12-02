@@ -4,3 +4,6 @@
 [submodule "scoreKeeper"]
 	path = scoreKeeper
 	url = https://github.com/Oli8/scoreKeeper
+[submodule "Wakemon"]
+	path = Wakemon
+	url = https://github.com/Oli8/Wakemon.git
