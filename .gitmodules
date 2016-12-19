@@ -7,3 +7,6 @@
 [submodule "Wakemon"]
 	path = Wakemon
 	url = https://github.com/Oli8/Wakemon.git
+[submodule "BlackJackJs"]
+	path = BlackJackJs
+	url = https://github.com/Oli8/BlackJackJs.git
