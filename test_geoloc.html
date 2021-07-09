@@ -16,12 +16,12 @@
     geoloc.oneShotLocalization({
       eventRef: '12345678',
       eventType: 'Test OLI one shot',
-    }, alert.bind(null, 'one shot done'));
+    }, () => alert('one shot done'));
 
-    geoloc.autoLocalization({
-      eventRef: '12345678',
-      eventType: 'Test OLI',
-    }, alert.bind(null, 'watch done'));
+    // geoloc.autoLocalization({
+    //   eventRef: '12345678',
+    //   eventType: 'Test OLI',
+    // }, alert.bind(null, 'watch done'));
   </script>
 </body>
 </html>
