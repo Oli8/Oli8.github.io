@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Geoloc</title>
+  <script src="https://integ-webgeoloc.sd-sfr.fr/client/dist/main.js"></script>
+</head>
+<body>
+  <script>
+    const token = 'eyJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOiJFUlRfSVZfOTAyIiwiaXNzIjoiaHR0cHM6Ly9vc2lyaS5wZnYuc2ZyLmZyL29zaXJpcy9lcnRfaXYvIiwiYXVkIjoiaHR0cHM6Ly9pbnRlZy13ZWJnZW9sb2Muc2Qtc2ZyLmZyL2NsaWVudC9kaXN0L21haW4uanMiLCJpYXQiOjE2MjM0MTYzMjgsImV4cCI6MTYyMzUwMjcyOCwibmJmIjoxNjIzNDE2MzM4fQ.d5EuzxkRv-F0LqxRXgnPCJvuw4u-jq5wkw94fnR02q_xyS3XWpwre2lQXn0Q_IZIHi8Pz-Uxy71yWipoeBhoI9RSy9ZCY2BFR92AT96hTLlcsd0pQGza6LRC1C752cC181caA3p3lM4CK4u50GVWpiyMD1yeJxmVt0hrB4mtCNKdO-HQSySxwUZgwk6ykePLYif98huyKhElBRBmmOn6tRpb_frRWiWrapI-90s9TJ8Ph9FUQmjE1H0mG-64usOtIn0GuK5RM_VZo1JL3YaO5OONPVKFwAgTR4aCGAt4w2FD7fvEUqi-nMoem4y4UO_8bWWK4p3tSNBcL4SWY8Vhwg';
+    const geoloc = new Geolocation(token, {
+      highAccuracy: true,
+    });
+    alert('hey');
+    geoloc.oneShotLocalization({
+      eventRef: '12345678',
+      eventType: 'Test OLI one shot',
+    }, alert.bind(null, 'one shot done'));
+
+    geoloc.autoLocalization({
+      eventRef: '12345678',
+      eventType: 'Test OLI',
+    }, alert.bind(null, 'watch done'));
+  </script>
+</body>
+</html>
