@@ -1,0 +1,2 @@
+(this["webpackJsonppantherswap-frontend-dex"]=this["webpackJsonppantherswap-frontend-dex"]||[]).push([[8],{1065:function(n,t){},714:function(n,t){},715:function(n,t){},724:function(n,t){},725:function(n,t){},745:function(n,t){},748:function(n,t){},749:function(n,t){},754:function(n,t){},758:function(n,t){}}]);
+//# sourceMappingURL=8.755ffc19.chunk.js.map
