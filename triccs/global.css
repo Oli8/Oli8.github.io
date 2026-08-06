@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.list {
+  list-style-type: square;
+}
+.list li::marker {
+  color: var(--primary);
+}
+
+.sticky {
+  position: sticky;
+  top: .5rem;
+}
+
+code, code span {
+  font-family: monospace;
+}
